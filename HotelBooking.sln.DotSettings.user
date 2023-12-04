@@ -1,0 +1,41 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33ed6f83_002D403f_002D4c56_002Da9e0_002Df4e0477632ca/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldAlwaysStartWithCreatedStatus #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldAlwaysStartWithCreatedStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38ffe8ef_002D9b02_002D4cfb_002D8f6c_002D58360d640905/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldAlwaysStartWithCreatedStatus #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldAlwaysStartWithCreatedStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5d9ecd1f_002D3162_002D4182_002Dbfbe_002D779f0cdf4547/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldAlwaysStartWithCreatedStatus #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldAlwaysStartWithCreatedStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=97a318cd_002D15a7_002D4030_002D8aa6_002D1b14f1f8462e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldSetStatusToPaidWhenPayingForABookingWithCreatedStatus" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToPaidWhenPayingForABookingWithCreatedStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9d4cfcb0_002D6959_002D413a_002D8855_002D937747322844/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldAlwaysStartWithCreatedStatus" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToCreatedWhenReopeningACanceledBooking&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldNotChangeStatusWhenRefundingABookingWithCreatedStatus&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldNotChangeStatusWhenRefundingAFinishedBooking&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldNotChangeStatusWhenBookingIsNotPaid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldNotChangeStatusToReopenWhenBookingStatusCreated&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldAlwaysStartWith_CreatedStatus&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToPaidWhenPayingForABookingWith_CreatedStatus&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToCanceledWhenCancellationForABookingWith_CreatedStatus&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToFinishedWhenFinishingAPaidBooking&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldSetStatusToRefundedWhenRefundingAPaidBooking&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldNotChangeStatusToReopeningWhenBookingStatusCreated&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=deb84ab9_002Dba3f_002D4abf_002D9988_002D1b24612f4d4d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldAlwaysStartWithCreatedStatus #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AEB85D76-F8E2-40E7-8C51-4302AACC4F80::net7.0::DomainTests.Booking.Tests.ShouldAlwaysStartWith_PaidStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

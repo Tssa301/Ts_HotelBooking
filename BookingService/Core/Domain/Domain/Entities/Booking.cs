@@ -9,23 +9,23 @@ public class Booking
     public DateTime PlacedAt { get; set; }
     public DateTime Start { get; set; } 
     public DateTime End { get; set; } 
-    private Status Status { get; set; }
+    private Status Status { get; set; } = Status.Created;
 
     public Status CurrentStatus()
     {
-        return this.Status;
+        return Status;
     }
 
     public void ChangeState(Action action)
     {
-        this.Status = (this.Status, action) switch
+        Status = (Status, action) switch
         {
             (Status.Created,  Action.Pay)     => Status.Paid,
             (Status.Created,  Action.Cancel)  => Status.Canceled,
             (Status.Paid,     Action.Finish)  => Status.Finished,
             (Status.Paid,     Action.Refund)  => Status.Refunded,
             (Status.Canceled, Action.Reopen)  => Status.Created,
-            _=> this.Status
+            _=> Status
         };
     }
 }
