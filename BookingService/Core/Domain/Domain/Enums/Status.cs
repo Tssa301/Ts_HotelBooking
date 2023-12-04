@@ -6,5 +6,5 @@ public enum Status
     Paid = 1,
     Finished = 2,
     Canceled = 3,
-    ReFounded =4,
+    Refunded =4,
 }
