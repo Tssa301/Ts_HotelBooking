@@ -12,3 +12,7 @@ C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.
 C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.0\Application.pdb
 C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.0\Application.genruntimeconfig.cache
 C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.0\ref\Application.dll
+C:\temp\HotelBooking\BookingService\Core\Application\Application\bin\Debug\net7.0\Domain.dll
+C:\temp\HotelBooking\BookingService\Core\Application\Application\bin\Debug\net7.0\Domain.pdb
+C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\temp\HotelBooking\BookingService\Core\Application\Application\obj\Debug\net7.0\Application.csproj.CopyComplete

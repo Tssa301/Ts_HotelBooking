@@ -506,6 +506,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1498,6 +1511,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Application/Application/Application.csproj",
+      "msbuildProject": "../../Core/Application/Application/Application.csproj"
+    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../../Adapters/Data/Data.csproj",
@@ -1511,6 +1529,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Application >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.14",
@@ -1545,6 +1564,9 @@
           "projectReferences": {
             "C:\\temp\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj": {
               "projectPath": "C:\\temp\\HotelBooking\\BookingService\\Adapters\\Data\\Data.csproj"
+            },
+            "C:\\temp\\HotelBooking\\BookingService\\Core\\Application\\Application\\Application.csproj": {
+              "projectPath": "C:\\temp\\HotelBooking\\BookingService\\Core\\Application\\Application\\Application.csproj"
             }
           }
         }

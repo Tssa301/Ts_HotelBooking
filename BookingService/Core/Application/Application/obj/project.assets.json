@@ -364,6 +364,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -940,10 +950,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Domain/Domain.csproj",
+      "msbuildProject": "../../Domain/Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14"
     ]
   },
@@ -971,7 +987,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\temp\\HotelBooking\\BookingService\\Core\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\temp\\HotelBooking\\BookingService\\Core\\Domain\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
