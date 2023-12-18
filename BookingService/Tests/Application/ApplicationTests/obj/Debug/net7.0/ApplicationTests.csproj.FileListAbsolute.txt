@@ -115,3 +115,10 @@ C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\obj\Debug
 C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\obj\Debug\net7.0\ApplicationTests.pdb
 C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\obj\Debug\net7.0\ApplicationTests.genruntimeconfig.cache
 C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\obj\Debug\net7.0\ref\ApplicationTests.dll
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Application.dll
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Domain.dll
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Application.pdb
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Domain.pdb
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Castle.Core.dll
+C:\temp\HotelBooking\BookingService\Tests\Application\ApplicationTests\bin\Debug\net7.0\Moq.dll
