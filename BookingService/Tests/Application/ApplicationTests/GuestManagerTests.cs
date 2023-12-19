@@ -2,7 +2,9 @@ using Application;
 using Application.Guest.DTO;
 using Application.Guest.Requests;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Ports;
+using Domain.ValueObjects;
 using Moq;
 
 namespace ApplicationTests;
@@ -123,8 +125,6 @@ public class Tests
     }
     
     [TestCase("Jhon", "Green", "b@b.com")]
-    //[TestCase("Jhon", "Green", "")]
-    //[TestCase("Jhon", "Green", null)]
     public async Task Should_Return_InvalidateEmail_WhenEmailIsInvalid(string name, string surname, string email)
     {
         var guestDto = new GuestDTO
@@ -153,5 +153,50 @@ public class Tests
         Assert.False(res.Success);
         Assert.That(res.ErrorCode, Is.EqualTo(ErrorCodes.INVALID_EMAIL));
         Assert.That(res.Message, Is.EqualTo("The Email entered is not valid"));
+    }
+    
+    [Test]
+    public async Task Should_Return_GuestNotFound_When_GuestDoesntExist()
+    {
+        var fakeRepo = new Mock<IGuestRepository>();
+        
+        fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult((Guest?)null));
+        
+        guestManager = new GuestManager(fakeRepo.Object);
+        
+        var res = await guestManager.GetGuest(333);
+        
+        Assert.IsNotNull(res);
+        Assert.False(res.Success);
+        Assert.That(res.ErrorCode, Is.EqualTo(ErrorCodes.GUEST_NOT_FOUND));
+        Assert.That(res.Message, Is.EqualTo("No Guest record was found with the given Id"));
+    }
+
+    [Test]
+    public async Task Should_Return_Guest_Success()
+    {
+        var fakeRepo = new Mock<IGuestRepository>();
+
+        var fakeGuest = new Guest()
+        {
+            Id = 333,
+            Name = "Jhon",
+            DocumentId = new PersonId()
+            {
+                DocumentType = DocumentType.DriveLicence,
+                IdNumber = "0123"
+            }
+        };
+
+        fakeRepo.Setup(x => x.Get(333)).Returns(Task.FromResult((Guest?)fakeGuest));
+        
+        guestManager = new GuestManager(fakeRepo.Object);
+        
+        var res = await guestManager.GetGuest(333);
+        
+        Assert.IsNotNull(res);
+        Assert.True(res.Success);
+        Assert.That(res.Data.Id, Is.EqualTo(fakeGuest.Id));
+        Assert.That(res.Data.Name, Is.EqualTo(fakeGuest.Name));
     }
 }
